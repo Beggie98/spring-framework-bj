@@ -1,4 +1,4 @@
-package dono.daryo.stereotype_annotation;
+package dono.daryo;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -6,8 +6,13 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DaryoApp {
 
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(ConfigCourse.class);
-        context.getBean(Java.class).getTeachingHours();
+
+        ApplicationContext container = new AnnotationConfigApplicationContext(ConfigApp.class);
+
+        Java java = container.getBean(Java.class);
+
+        java.getTeachingHours();
+
     }
 
 }
