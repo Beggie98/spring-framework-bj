@@ -8,4 +8,5 @@ import org.springframework.stereotype.Component;
 //@ComponentScan //@ComponentScan checks every class in the current package for @Component
 @ComponentScan(basePackages = "dono.daryo")//looks for classes outside the current package
 public class ConfigCourse {
+
 }
