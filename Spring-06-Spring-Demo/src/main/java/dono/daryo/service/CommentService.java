@@ -4,10 +4,12 @@ import dono.daryo.model.Comment;
 import dono.daryo.proxy.CommentNotificationProxy;
 import dono.daryo.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class CommentService {
+
 
     private final CommentRepository commentRepository;
     private final CommentNotificationProxy commentNotificationProxy;
