@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Company-Project" />
+        <module name="spring-review-IoC" />
+        <module name="Spring-ORM-Cinema-Lab" />
+        <module name="Spring-00-Coupling" />
+        <module name="Spring-02-Core-Wiring" />
+        <module name="Spring-04-Abstraction" />
+        <module name="spring09springthymeleaf" />
+        <module name="Spring-01-Core-IoC" />
+        <module name="Spring-03-Core-DI" />
+        <module name="Spring-06-SpringBoot-Demo" />
+        <module name="demo (2)" />
+        <module name="demo (1)" />
+        <module name="Spring-10-ORM-TableCreation" />
+        <module name="spring-review-Qualifier" />
+        <module name="Spring-11-ORM-Mapping-One-To-One" />
+        <module name="Spring-05-Core-BeanScope" />
+        <module name="Spring-12-ORM-OneToMany-ManyToMany" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+      <module name="spring (2)" target="17" />
+      <module name="Spring-13-ORM-CinemaLab" target="17" />
+      <module name="Spring-review-Qualifier" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-06-SpringBoot-Demo" options="-parameters" />
+      <module name="Spring-10-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-11-ORM-Mapping-One-To-One" options="-parameters" />
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" options="-parameters" />
+      <module name="Spring-13-ORM-CinemaLab" options="-parameters" />
+      <module name="Spring-Company-Project" options="-parameters" />
+      <module name="Spring-ORM-Cinema-Lab" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="spring (2)" options="-parameters" />
+      <module name="spring09springthymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>
