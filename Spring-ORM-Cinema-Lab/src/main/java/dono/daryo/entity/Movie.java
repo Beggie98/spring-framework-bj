@@ -11,14 +11,10 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Entity
-@Table(name = "Movie")
 @Data
 @NoArgsConstructor
-public class Movie {
+public class Movie extends BaseEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     private String name;
     private BigDecimal price;
@@ -36,9 +32,6 @@ public class Movie {
 
     @Column(columnDefinition = "text")
     private String summary;
-
-    @OneToMany(mappedBy = "movie")
-    private List<MovieCinema> movieCinemaList;
 
 
     @ManyToMany

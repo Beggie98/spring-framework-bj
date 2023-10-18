@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Company-Project" />
+        <module name="Spring-17-REST-ConsumingApis" />
         <module name="spring-review-IoC" />
         <module name="Spring-ORM-Cinema-Lab" />
         <module name="Spring-00-Coupling" />
@@ -16,6 +17,8 @@
         <module name="spring09springthymeleaf" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
+        <module name="Spring-15-REST" />
+        <module name="Spring-16-REST-Jackson" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="demo (2)" />
         <module name="demo (1)" />
@@ -40,6 +43,9 @@
       <module name="Spring-11-ORM-Mapping-One-To-One" options="-parameters" />
       <module name="Spring-12-ORM-OneToMany-ManyToMany" options="-parameters" />
       <module name="Spring-13-ORM-CinemaLab" options="-parameters" />
+      <module name="Spring-15-REST" options="-parameters" />
+      <module name="Spring-16-REST-Jackson" options="-parameters" />
+      <module name="Spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="Spring-Company-Project" options="-parameters" />
       <module name="Spring-ORM-Cinema-Lab" options="-parameters" />
       <module name="demo" options="-parameters" />

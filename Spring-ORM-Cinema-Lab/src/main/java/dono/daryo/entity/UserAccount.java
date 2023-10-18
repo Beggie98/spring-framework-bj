@@ -10,11 +10,8 @@ import java.util.List;
 @Table(name = "UserAccount")
 @Data
 @NoArgsConstructor
-public class UserAccount {
+public class UserAccount extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
 
     private String email;
@@ -23,13 +20,10 @@ public class UserAccount {
 
 
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "account_details_id")
     private AccountDetails accountDetails;
 
-
-    @OneToMany(mappedBy = "userAccount")
-    private List<Ticket> ticketList;
 
 
     public UserAccount(String email, String password, String username) {

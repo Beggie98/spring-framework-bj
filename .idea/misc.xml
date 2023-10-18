@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/Spring-ORM-Cinema-Lab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Company-Project/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-15-REST/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-16-REST-Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

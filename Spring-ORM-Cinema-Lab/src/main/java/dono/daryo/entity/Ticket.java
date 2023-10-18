@@ -11,11 +11,8 @@ import java.util.List;
 @Table(name = "Ticket")
 @Data
 @NoArgsConstructor
-public class Ticket {
+public class Ticket extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     @Column(columnDefinition = "TIMESTAMP")
     private LocalDateTime dateTime;
@@ -24,11 +21,9 @@ public class Ticket {
     private int rowNumber;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "movie_cinema_id")
     private MovieCinema movieCinema;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_account_id")
     private UserAccount userAccount;
 
 

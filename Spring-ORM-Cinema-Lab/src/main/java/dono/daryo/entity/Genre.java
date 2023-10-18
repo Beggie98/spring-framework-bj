@@ -10,11 +10,8 @@ import java.util.List;
 @Table(name = "Genre")
 @Data
 @NoArgsConstructor
-public class Genre {
+public class Genre extends BaseEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     private String name;
 

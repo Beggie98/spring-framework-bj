@@ -9,11 +9,8 @@ import lombok.NoArgsConstructor;
 @Table(name = "AccountDetails")
 @Data
 @NoArgsConstructor
-public class AccountDetails {
+public class AccountDetails extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     private String name;
     private String address;
@@ -29,7 +26,7 @@ public class AccountDetails {
 
 
 
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "accountDetails")
+    @OneToOne(mappedBy = "accountDetails")
     private UserAccount userAccount;
 
 

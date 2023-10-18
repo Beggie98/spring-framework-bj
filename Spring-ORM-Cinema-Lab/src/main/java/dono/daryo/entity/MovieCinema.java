@@ -9,25 +9,16 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name = "MovieCinema")
 @Data
 @NoArgsConstructor
-public class MovieCinema {
+public class MovieCinema extends BaseEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "cinema_id")
+    @ManyToOne(fetch = FetchType.EAGER)
     private Cinema cinema;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "movie_id")
+    @ManyToOne(fetch = FetchType.EAGER)
     private Movie movie;
-
-    @OneToMany(mappedBy = "movieCinema")
-    private List<Ticket> ticketList;
 
     @Column(columnDefinition = "TIMESTAMP")
     private LocalDateTime dateTime;
