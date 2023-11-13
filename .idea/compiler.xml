@@ -23,7 +23,10 @@
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="demo (2)" />
         <module name="demo (1)" />
+        <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" />
+        <module name="Spring-19-REST-Security-Keycloak-LicenseApp" />
         <module name="Spring-10-ORM-TableCreation" />
+        <module name="Spring-20-AOP" />
         <module name="spring-review-Qualifier" />
         <module name="Spring-11-ORM-Mapping-One-To-One" />
         <module name="Spring-05-Core-BeanScope" />
@@ -48,6 +51,9 @@
       <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="Spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="Spring-18-REST-OpenApi3" options="-parameters" />
+      <module name="Spring-19-REST-Security-Keycloak-LicenseApp" options="-parameters" />
+      <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
+      <module name="Spring-20-AOP" options="-parameters" />
       <module name="Spring-Company-Project" options="-parameters" />
       <module name="Spring-ORM-Cinema-Lab" options="-parameters" />
       <module name="demo" options="-parameters" />
