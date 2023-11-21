@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-21-UnitTesting-JUnit5" />
+        <module name="Spring-23-UnitTesting-MockMvc" />
         <module name="Spring-Company-Project" />
         <module name="Spring-22-UnitTesting-Mockito" />
         <module name="Spring-ORM-Cinema-Lab" />
@@ -60,6 +61,7 @@
       <module name="Spring-20-AOP" options="-parameters" />
       <module name="Spring-21-UnitTesting-JUnit5" options="" />
       <module name="Spring-22-UnitTesting-Mockito" options="-parameters" />
+      <module name="Spring-23-UnitTesting-MockMvc" options="-parameters" />
       <module name="Spring-Company-Project" options="-parameters" />
       <module name="Spring-ORM-Cinema-Lab" options="-parameters" />
       <module name="demo" options="-parameters" />
